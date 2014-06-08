@@ -1,8 +1,8 @@
-# Jeyo Distans
+# jeyo-distans
 
 ![NPM version](http://img.shields.io/npm/v/jeyo-distans.svg) ![Build Status](http://img.shields.io/travis/leny/jeyo-distans.svg) ![Dependency Status](https://david-dm.org/leny/jeyo-distans.svg) ![Downloads counter](http://img.shields.io/npm/dm/jeyo-distans.svg)
 
-> Get distance between two geo coordinates
+> Get distance between two geographic coordinates
 
 * * *
 
@@ -14,13 +14,27 @@
 
 Install the module with: `npm install jeyo-distans`
 
+Use it with: `jeyoDistans = require( "jeyo-distans" );`
+
 ## Documentation
 
-_(Coming soon)_
+The **jeyo-distans** module exposts an unique function : 
+
+    jeyoDistans( positionOne, positionTwo )
+    
+* `positionOne`
+* `positionTwo`
+
+The two arguments represents geographic coordinates formated as :
+
+* an `Array`, where the first member is a `Number` representing the **latitude** of the position, and the second member is a `Number` representing the **longitude** Of the position.
+* an `Object`, where the `latitude` or `lat` property is a `Number` representing the **latitude** of the position, and the `longitude` or `lng` property is a `Number` representing the **longitude** of the position.
+
+Te returns value is a `Number`, representing the distance between the two positions, in **meters**.
 
 ## Examples
 
-_(Coming soon)_
+See *tests*.
 
 ## Contributing
 
