@@ -30,7 +30,7 @@ The two arguments represents geographic coordinates formated as :
 * an `Array`, where the first member is a `Number` representing the **latitude** of the position, and the second member is a `Number` representing the **longitude** Of the position.
 * an `Object`, where the `latitude` or `lat` property is a `Number` representing the **latitude** of the position, and the `longitude` or `lng` property is a `Number` representing the **longitude** of the position.
 
-Te returns value is a `Number`, representing the distance between the two positions, in **meters**.
+Te returns value is a `Number`, representing the distance between the two positions, in **kilometers** (with `3` decimal numbers).
 
 ## Examples
 
