@@ -46,7 +46,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## TODO
 
-* I'll find some things to add :)
+* Choose returns unit
 
 ## License
 
