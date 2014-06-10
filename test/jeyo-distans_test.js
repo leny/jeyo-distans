@@ -44,8 +44,8 @@ exports[ "Jeyo Distans" ] = {
     test.expect( 3 );
 
     test.equal( jeyoDistans( oLiege, oLiege ), 0, "should be 0m." );
-    test.equal( Math.round( jeyoDistans( oLiege, oBruxelles ) ), 88709, "should be 88709m." );
-    test.equal( Math.round( jeyoDistans( oBruxelles, oLiege ) ), 88709, "should be 88709m." );
+    test.equal( jeyoDistans( oLiege, oBruxelles ), 88.709, "should be 88709m." );
+    test.equal( jeyoDistans( oBruxelles, oLiege ), 88.709, "should be 88709m." );
 
     test.done();
   },
@@ -54,8 +54,8 @@ exports[ "Jeyo Distans" ] = {
     test.expect( 3 );
 
     test.equal( jeyoDistans( oParis, oParis ), 0, "should be 0m." );
-    test.equal( Math.round( jeyoDistans( oParis, oRioDeJaneiro ) ), 9167866, "should be 9167866m." );
-    test.equal( Math.round( jeyoDistans( oRioDeJaneiro, oParis ) ), 9167866, "should be 9167866m." );
+    test.equal( jeyoDistans( oParis, oRioDeJaneiro ), 9167.866, "should be 9167866m." );
+    test.equal( jeyoDistans( oRioDeJaneiro, oParis ), 9167.866, "should be 9167866m." );
 
     test.done();
   },
@@ -64,8 +64,8 @@ exports[ "Jeyo Distans" ] = {
     test.expect( 3 );
 
     test.equal( jeyoDistans( aLiege, aLiege ), 0, "should be 0m." );
-    test.equal( Math.round( jeyoDistans( aLiege, aBruxelles ) ), 88709, "should be 88709m." );
-    test.equal( Math.round( jeyoDistans( aBruxelles, aLiege ) ), 88709, "should be 88709m." );
+    test.equal( jeyoDistans( aLiege, aBruxelles ), 88.709, "should be 88709m." );
+    test.equal( jeyoDistans( aBruxelles, aLiege ), 88.709, "should be 88709m." );
 
     test.done();
   },
@@ -73,15 +73,15 @@ exports[ "Jeyo Distans" ] = {
   "mixed": function ( test ) {
     test.expect( 6 );
 
-    test.equal( Math.round( jeyoDistans( oLiege, aBruxelles ) ), 88709, "should be 88709m." );
-    test.equal( Math.round( jeyoDistans( oBruxelles, aLiege ) ), 88709, "should be 88709m." );
+    test.equal( jeyoDistans( oLiege, aBruxelles ), 88.709, "should be 88709m." );
+    test.equal( jeyoDistans( oBruxelles, aLiege ), 88.709, "should be 88709m." );
 
-    test.equal( Math.round( jeyoDistans( oBruxelles, oParis ) ), 263686, "should be 263686m." );
-    test.equal( Math.round( jeyoDistans( aBruxelles, oParis ) ), 263686, "should be 263686m." );
+    test.equal( jeyoDistans( oBruxelles, oParis ), 263.686, "should be 263686m." );
+    test.equal( jeyoDistans( aBruxelles, oParis ), 263.686, "should be 263686m." );
 
-    test.equal( Math.round( jeyoDistans( oRioDeJaneiro, aLiege ) ), 9469697, "should be 9469697m." );
+    test.equal( jeyoDistans( oRioDeJaneiro, aLiege ), 9469.697, "should be 9469697m." );
 
-    test.equal( Math.round( jeyoDistans( aRioDeJaneiro, oBruxelles ) ), 9428070, "should be 9428070m." );
+    test.equal( jeyoDistans( aRioDeJaneiro, oBruxelles ), 9428.070, "should be 9428070m." );
 
     test.done();
   },
