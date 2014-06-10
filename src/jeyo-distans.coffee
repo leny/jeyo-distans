@@ -37,7 +37,7 @@ do (
             iDiffLng = deg2rad iPositionTwoLongitude - iPositionOneLongitude
             iA = Math.sin( iDiffLat / 2 ) * Math.sin( iDiffLat / 2 ) + Math.cos( deg2rad( iPositionOneLatitude ) ) * Math.cos( deg2rad( iPositionTwoLatitude ) ) * Math.sin( iDiffLng / 2 ) * Math.sin( iDiffLng / 2 )
             iC = 2 * Math.atan2( Math.sqrt( iA ), Math.sqrt( 1 - iA ) )
-            iR * iC * 1000 # Distance in m
+            ( iR * iC ).toFixed 3
 ) ->
     if typeof define is "function" and define.amd
         define [], factory
