@@ -1,6 +1,6 @@
 # jeyo-distans
 
-![NPM version](http://img.shields.io/npm/v/jeyo-distans.svg) ![Build Status](http://img.shields.io/travis/leny/jeyo-distans.svg) ![Dependency Status](https://david-dm.org/leny/jeyo-distans.svg) ![Downloads counter](http://img.shields.io/npm/dm/jeyo-distans.svg)
+![NPM version](http://img.shields.io/npm/v/jeyo-distans.svg) ![Build Status](http://img.shields.io/travis/leny/jeyo-distans.svg) ![Dependency Status](https://david-dm.org/leny/jeyo-distans.svg) ![Downloads counter](http://img.shields.io/npm/dm/jeyo-distans.svg) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 > Get distance between two geographic coordinates
 
